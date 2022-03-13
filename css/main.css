@@ -1,0 +1,32 @@
+
+
+* {
+    padding: 0;
+    margin: 1%;
+    box-sizing: border-box;
+    font-size: 111%;
+    background : linear-gradient(300deg, rgba(2, 78, 40, 0.63), rgb(30, 146, 82));
+    color : white;
+    justify-content: center;
+    
+}
+
+.title {
+    border: 1px dashed darkgoldenrod;
+    color: rgb(187, 162, 19);
+    text-align: center;
+    justify-content: space-evenly;
+    width: 85%;
+    letter-spacing: 1.1rem;
+    margin: 5% auto;
+    font-size: 225%;
+    font-weight: bold;
+}
+
+.send {
+    margin: 5% auto;
+}
+
+.section {
+    text-align: center;
+}

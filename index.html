@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mastermind v1</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+        <h1 class = "title" data-aos="fade-down">MasterMind</h1>
+
+        <section>
+            
+            <input type="button" value="Règles du jeu" onClick={message()} data-aos="fade-down-right">
+
+            <div class="form" id ="send" data-aos="fade-down-left">
+                <input type="number" name="anwser1" class="anwser1" />
+                <input type="number" name="anwser2" class="anwser2" />
+                <input type="number" name="anwser3" class="anwser3" />
+                <input type="number" name="anwser4" class="anwser4" />
+                <input type="submit" name="send" value="Valider" onclick={valid()}>
+            </div>
+            <div class = "perdu"></div>
+            <div class = "rejouer"></div>
+            
+            <div class="reponses">
+
+            </div>
+        </section>
+        <script src="./js/main.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    </body>
+</html>
